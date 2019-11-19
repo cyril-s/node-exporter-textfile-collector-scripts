@@ -72,6 +72,7 @@ PHYS_DEVICE_OK_STATE = (
 PHYS_DEVICE_SKIP_PARTS = (
     re.compile(r"Initiator at ID #", re.IGNORECASE),
     re.compile(r"Device is a Enclosure services device", re.IGNORECASE),
+    re.compile(r"Device is a unknown device", re.IGNORECASE),
 )
 
 
